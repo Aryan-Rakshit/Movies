@@ -19,7 +19,7 @@ import java.util.Optional;
 public class MovieController {
 
     @Autowired
-    private MovieService movieService; //new
+    private MovieService movieService;
 
     @GetMapping
     public ResponseEntity<List<Movie>> getAllMovies() {
